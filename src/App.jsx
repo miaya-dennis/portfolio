@@ -11,7 +11,7 @@ function App() {
     <div>
       <Header />
       <Hero />
-      <p>I am Miaya Dennis, I am aspirting to become a passionate web developer and creator of various projects.</p>
+      <p>I am aspirting to become a passionate web developer and creator of various projects.</p>
       <Fortune />
       <DataPlaylistPortfolioCard />
       <CapstonePortfolioCard />
