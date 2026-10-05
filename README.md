@@ -1,16 +1,20 @@
-# React + Vite
+# My Portfolio
+A React site that shows the projects I built in Level 2.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Components
 
-Currently, two official plugins are available:
+| Component | What it shows | Where its values come from |
+| --- | --- | --- |
+| `Header` | my name and a line about me | typed into the JSX |
+| `Fortune` | a random fortune | a list and `randomNumber` |
+| `Footer` | &copy; and the current year | the year the page is opened |
+| `DataPlaylistPortfolioCard` | one project: its name, description, and two links | variables inside the component |
+|  |  |  |
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What I'm adding next
 
-## React Compiler
+-I'll be adding a card to link my projects to the app. 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Built with
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+React, Vite, Bun, and Pico CSS.
