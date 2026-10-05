@@ -13,7 +13,7 @@ A React site that shows the projects I built in Level 2.
 
 ## What I'm adding next
 
--
+-I'll be adding a card to link my projects to the app. 
 
 ## Built with
 
