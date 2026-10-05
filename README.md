@@ -1,8 +1,5 @@
 # My Portfolio
-
 A React site that shows the projects I built in Level 2.
-
-
 
 ## Components
 
