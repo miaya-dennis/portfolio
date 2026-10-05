@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Header />
-      <p>Pokémon trainer from Pallet Town.</p>
+      <p>I am Miaya Dennis, I am aspirting to become a passionate web developer and creator of various projects.</p>
       <Fortune />
       <DataPlaylistPortfolioCard />
       <CapstonePortfolioCard />
