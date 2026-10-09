@@ -6,6 +6,9 @@ A React site that shows the projects I built in Level 2.
 | Component | What it shows | Where its values come from |
 | --- | --- | --- |
 | `Header` | my name and a line about me | typed into the JSX |
+| Component | What it shows | Where its values come from | What it remembers |
+| --- | --- | --- | --- |
+| `Hero` | my hero photo | `heroPhoto`, which calls `imageUrl` | whether the photo is in color |
 | `Fortune` | a random fortune | a list and `randomNumber` |
 | `Footer` | &copy; and the current year | the year the page is opened |
 | `DataPlaylistPortfolioCard` | one project: its name, description, and two links | variables inside the component |
@@ -14,6 +17,9 @@ A React site that shows the projects I built in Level 2.
 ## What I'm adding next
 
 -I'll be adding a card to link my projects to the app. 
+- Color and Black and White buttons on my hero
+- a New Fortune button
+- a Like button on every card
 
 ## Built with
 
