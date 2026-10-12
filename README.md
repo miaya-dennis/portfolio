@@ -21,6 +21,10 @@ A React site that shows the projects I built in Level 2.
 - a New Fortune button
 - a Like button on every card
 
+## What it remembers
+| `Hero` | my hero photos | `heroPhoto`, which calls `imageUrl` | which photo is showing, and whether it is in color |
+| `CapstonePortfolioCard` | one project: its name, description, and two links | variables inside the component | its likes, and whether it shows more |
+
 ## Built with
 
 React, Vite, Bun, and Pico CSS.
