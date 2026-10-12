@@ -5,9 +5,10 @@ import Footer from './Footer.jsx'
 import DataPlaylistPortfolioCard from './DataPlaylistPortfolioCard.jsx'
 import CapstonePortfolioCard from './CapstonePortfolioCard.jsx'
 import "@picocss/pico"
-
+import { useState } from 'react'
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false)
   return (
     <div>
       <Header />
