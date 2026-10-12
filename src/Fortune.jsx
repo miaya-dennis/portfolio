@@ -1,11 +1,24 @@
-function randomNumber(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min
-}
+import { useState } from 'react'
+
+const randomNumber = (min, max) =>
+  Math.floor(Math.random() * (max - min + 1)) + min
 
 function Fortune() {
-  let fortunes = ["Ship it.", "Read the error.", "Commit early."]
-  let index = randomNumber(0, fortunes.length - 1)
-  return <p>{fortunes[index]}</p>
+  const fortunes = ["You're Awesome!", "Keep Believing", "Chase your goals!"]
+  const [index, setIndex] = useState(0)
+
+  const newFortune = () => {
+    setIndex(randomNumber(0, fortunes.length - 1))
+  }
+
+  return (
+    <div>
+      <p className="hero">{fortunes[index]}</p>
+      <div className="hero">
+      <button onClick={newFortune}>New Fortune</button>
+    </div>
+    </div>
+  )
 }
 
 export default Fortune

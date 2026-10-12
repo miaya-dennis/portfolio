@@ -1,4 +1,9 @@
 /* hero.css — the hero image at the top of the page. */
 .hero {
   margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:flex-start;
+  
 }

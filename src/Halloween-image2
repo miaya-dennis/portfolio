@@ -1,0 +1,5 @@
+
+const image2 = (width, height, invert, alt) =>
+"https://images.unsplash.com/photo-1632666054827-cddac46b8f57?w=" + width + "&h=" + height + "&invert=" + invert + "&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D&invert=" + invert + "&h=" + height
+
+export default image2
