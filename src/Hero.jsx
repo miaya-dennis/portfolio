@@ -18,15 +18,15 @@ function Hero() {
   const src = heroPhoto(500, 500, invert, "Halloween Pumpkins")
   return (
     <div>
-    <div className="hero">
-      <img src={heroPhoto(500, 500, invert, "Halloween Pumpkins")} alt={"Halloween Pumpkins"} />
-    </div>
-    <p>
-   
-      <button onClick={invertOn}>Invert</button>
-      <button onClick={invertOff}>Don't Invert</button>
-    </p>
+      <div className="hero">
+        <img src={heroPhoto(500, 500, invert, "Halloween Pumpkins")} alt={"Halloween Pumpkins"} /> 
+      </div>
+      <div className="hero">    
+        <button onClick={invertOn}>Invert</button> &nbsp; &nbsp; &nbsp;  &nbsp; 
+        <button onClick={invertOff}>Don't Invert</button>
+      </div>
     </div>
   )
+  
 }
 export default Hero
