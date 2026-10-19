@@ -1,13 +1,22 @@
-/*import { useState } from 'react';
-
-
-const projects = {
-    name: "Api Tutorial",
-    description:"This project showed the steps we went through in Level 2 to acquire API data.",
-    details: "Using the fetch() method, we were able to retrieve data from an API and display it on our webpage.",
-    liveUrl: "https://miaya-dennis.github.io/api-tutorial/",
-    repoUrl: "https://github.com/miaya-dennis/api-tutorial",
+ const project = [
+ {
+    name: "Capstone Project",
+    description: "A capstone project that demonstrates my skills in web development.",
+    details: "I built it in Level 2 to practice click listeners and the counter pattern.",
+    liveUrl: "https://YOUR-USERNAME.github.io/capstone-project/",
+    repoUrl: "https://github.com/YOUR-USERNAME/capstone-project",
     status: "Completed",
-}
+ },
 
-export default projects*/
+ {
+   name: "Data Playlist",
+   description: "A page of buttons that count, change, and react to clicks.",
+   details: "I built it in Level 2 to practice click listeners and the counter pattern.",
+   liveUrl: "https://YOUR-USERNAME.github.io/data-playlist/",
+   repoUrl: "https://github.com/YOUR-USERNAME/data-playlist",
+   status: "Completed",
+ }, 
+ 
+]
+
+export default project
