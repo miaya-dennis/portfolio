@@ -1,4 +1,4 @@
-import { useState } from 'react';
+/*import { useState } from 'react';
 
 
 const projects = {
@@ -10,4 +10,4 @@ const projects = {
     status: "Completed",
 }
 
-export default projects
+export default projects*/
