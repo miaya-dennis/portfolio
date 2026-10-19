@@ -6,10 +6,7 @@ A React site that shows the projects I built in Level 2.
 | Component | What it shows | Where its values come from |
 | --- | --- | --- |
 | `Header` | my name and a line about me | typed into the JSX |
-| Component | What it shows | Where its values come from | What it remembers |
-| --- | --- | --- | --- |
-| Component | What it shows | Where its values come from | What it remembers | What it receives |
-| --- | --- | --- | --- | --- |
+| Component | Invert| The value will come from the invert on button| it remembers to add invert to the picture when it is not on.|
 | `Hero` | my hero photo | `heroPhoto`, which calls `imageUrl` | whether the photo is in color |
 | `Fortune` | a random fortune | a list and `randomNumber` |
 | `Footer` | &copy; and the current year | the year the page is opened |
