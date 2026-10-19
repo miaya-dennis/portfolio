@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import heroPhoto from './hero-photo.js'
 import './hero.css'
+import PhotoControls from './PhotoControls.jsx'
 
 
 function Hero() {
@@ -17,7 +18,7 @@ const descriptions = [
 ]
 
   const [index, setIndex] = useState(0)
-    const [invert, setInvert] = useState(true)
+  const [invert, setInvert] = useState(true)
  
   const nextPhoto = () => {
     if (index === photos.length - 1) {
@@ -44,18 +45,21 @@ const descriptions = [
     setInvert(false) //flip the value
   }
   
+  const [id, description] = photos[index]
   const [src, alt] = heroPhoto(photos[0], 500, 500, invert, descriptions[index])
   return (
     <div>
       <div className="hero">
- <img src={heroPhoto(500, 500, invert, "Halloween Pumpkins")} alt={"Halloween Pumpkins"} />  
-         </div>
+        <img src={heroPhoto(500, 500, invert, "Halloween Pumpkins")} alt={"Halloween Pumpkins"} />
+      </div>
 
       <div className="hero">  
-        <button onClick={previousPhoto}>Previous</button> &nbsp; &nbsp; &nbsp;  &nbsp;
-        <button onClick={nextPhoto}>Next</button>  &nbsp; &nbsp; &nbsp;  &nbsp;
-        <button onClick={invertOn}>Invert</button> &nbsp; &nbsp; &nbsp;  &nbsp; 
-        <button onClick={invertOff}>No Invert</button>
+      <PhotoControls 
+      onNext={nextPhoto}
+      onPrevious={previousPhoto}
+      onInvert={invertOn}
+      noInvert={invertOff}
+      />
       </div>
 
     </div>
