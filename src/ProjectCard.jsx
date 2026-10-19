@@ -7,9 +7,6 @@ function ProjectCard({ project }) {
   const addLike = () => {
     setLikes(likes + 1)
   } 
-  const removeLike = () => {
-    setLikes(likes - 1)
-  }
   const toggleOpen = () => {
     setOpen(!open)
   }
@@ -29,8 +26,7 @@ function ProjectCard({ project }) {
       <p>
         <a href={project.liveUrl}>See it live</a> · <a href={project.repoUrl}>Read the code</a>
       </p>
-      <button onClick={addLike}>Like {likes}</button> &nbsp; &nbsp; &nbsp; &nbsp;
-      <button onClick={removeLike}>Unlike {likes}</button>
+      <button onClick={addLike}>Like {likes}</button> 
     </article>
   )
 }
