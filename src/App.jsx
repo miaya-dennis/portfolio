@@ -2,22 +2,20 @@ import Header from './Header.jsx'
 import Hero from './Hero.jsx'
 import Fortune from './Fortune.jsx'
 import Footer from './Footer.jsx'
-import DataPlaylistPortfolioCard from './DataPlaylistPortfolioCard.jsx'
-import CapstonePortfolioCard from './CapstonePortfolioCard.jsx'
-import "@picocss/pico"
-import { useState } from 'react'
+import ProjectCard from './ProjectCard.jsx'
+import project from './project.js'
+
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false)
+  /*const [theme, setTheme] = useState("dark")*/
   return (
-    <div>
+    <div /*data-theme="dark"*/>
       <Header />
       <Hero />
-      <hr></hr>
       <p className="hero">Click through for a lucky fortune!</p>
       <Fortune />
-      <DataPlaylistPortfolioCard />
-      <CapstonePortfolioCard />
+      <ProjectCard project={project[0]} />
+      <ProjectCard project={project[1]} />
       <Footer />
     </div>
   )

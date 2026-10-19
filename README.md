@@ -8,6 +8,8 @@ A React site that shows the projects I built in Level 2.
 | `Header` | my name and a line about me | typed into the JSX |
 | Component | What it shows | Where its values come from | What it remembers |
 | --- | --- | --- | --- |
+| Component | What it shows | Where its values come from | What it remembers | What it receives |
+| --- | --- | --- | --- | --- |
 | `Hero` | my hero photo | `heroPhoto`, which calls `imageUrl` | whether the photo is in color |
 | `Fortune` | a random fortune | a list and `randomNumber` |
 | `Footer` | &copy; and the current year | the year the page is opened |
@@ -27,4 +29,4 @@ A React site that shows the projects I built in Level 2.
 
 ## Built with
 
-React, Vite, Bun, and Pico CSS.
+React, Vite, Bun, and Pico.css.
